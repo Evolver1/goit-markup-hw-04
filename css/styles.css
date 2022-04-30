@@ -10,6 +10,7 @@
   --button-hiro-focus: #188ce8;
   --border-line: #ececec;
   --ico-color: #afb1b8;
+  --social-links-foot_color: rgba(255, 255, 255, 0.1);
 }
 html {
   box-sizing: border-box;
@@ -600,19 +601,19 @@ section {
 .social-links-foot__logo {
   width: 44px;
   height: 44px;
-  fill: var(--ico-color);
+  fill: var(--button-txt-focus-col);
   transition-duration: 0.4s;
 }
 
-.social-links-foot__logo:hover {
+/* .social-links-foot__logo:hover {
   fill: var(--button-txt-focus-col);
-}
+} */
 .social-links-foot__button {
   width: 44px;
   height: 44px;
   border-radius: 22px;
   padding: 0px 0px;
-  background-color: var(--button-txt-focus-col);
+  background-color: var(--social-links-foot_color);
 }
 
 .social-links-foot__button:hover,
