@@ -114,8 +114,18 @@ section {
   letter-spacing: 0.02em;
 }
 
-.adress__logo {
-  fill: red;
+.adress__logo-m {
+  width: 16px;
+  height: 12px;
+  fill: var(--contact-links-color);
+  margin-left: 10px;
+}
+
+.adress__logo-tel {
+  width: 10px;
+  height: 16px;
+  fill: var(--contact-links-color);
+  margin-left: 10px;
 }
 
 .adress__link:hover,
