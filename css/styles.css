@@ -249,10 +249,12 @@ section {
   padding-bottom: 94px;
 }
 
+.aboutus__logo-cont {
+}
+
 .aboutus__logo {
-  height: 70px;
-  width: 70px;
-  fill: #000000;
+  height: 120px;
+  width: 270px;
 }
 
 .aboutus__list {
