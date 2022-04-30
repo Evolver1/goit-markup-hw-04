@@ -534,11 +534,23 @@ section {
   color: var(--button-txt-focus-col);
 }
 
+/* futer-sec__cont */
+
 .futer-sec {
   background-color: var(--hero-backgr);
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.futer-sec__cont {
+  display: flex;
+  flex-direction: row;
+}
+
+.futer-sec__adr-cont {
+  width: 231px;
+  margin-right: 70px;
+}
+
 .adr {
   text-decoration: none;
   font-style: normal;
@@ -579,6 +591,17 @@ section {
 .social-links-foot {
   padding-top: 9px;
   padding-bottom: 9px;
+  width: 206px;
+}
+
+.social-links-foot__header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--button-txt-focus-col);
+  margin-bottom: 20px;
 }
 
 .social-links-foot__Button-list {
