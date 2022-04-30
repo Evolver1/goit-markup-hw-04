@@ -9,6 +9,7 @@
   --footr-link: rgba(255, 255, 255, 0.6);
   --button-hiro-focus: #188ce8;
   --border-line: #ececec;
+  --ico-color: #afb1b8;
 }
 html {
   box-sizing: border-box;
@@ -335,6 +336,63 @@ section {
   text-align: center;
   margin-top: 10px;
 }
+
+.our-clents {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.our-clents__main-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: var(--nav-links-color);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.our-clents__Button-list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 34px;
+}
+.our-clents__Button-li {
+  margin-right: 30px;
+}
+
+.our-clents__Button-li:first-child {
+  margin-left: auto;
+}
+
+.our-clents__Button-li:last-child {
+  margin-right: auto;
+}
+.our-clents__body {
+  display: flex;
+  flex-direction: column;
+}
+
+.our-clents__logo {
+  width: 170px;
+  height: 92px;
+  fill: var(--ico-color);
+  transition-duration: 0.4s;
+}
+
+.our-clents__logo:hover {
+  fill: var(--focus-color);
+}
+.our-clents__button {
+  width: 170px;
+  height: 92px;
+  border: 2px solid var(--ico-color);
+}
+
+.our-clents__button:hover,
+.our-clents__button:focus {
+  border: 2px solid var(--focus-color);
+}
+
 /*.our-progects {
 }*/
 
