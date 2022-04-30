@@ -220,6 +220,7 @@ section {
 
 .weare {
   padding-bottom: 94px;
+  padding-top: 0px;
 }
 .weare__main-header {
   font-weight: 700;
@@ -281,7 +282,7 @@ section {
 }
 .aboutus__li {
   margin-right: 30px;
-  height: 101px;
+  height: 251px;
   width: 270px;
 }
 .aboutus__li:last-child {
