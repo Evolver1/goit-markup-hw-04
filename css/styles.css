@@ -115,9 +115,7 @@ section {
 }
 
 .adress__logo {
-  width: 16px;
-  height: 12px;
-  fill: carrent-color;
+  fill: red;
 }
 
 .adress__link:hover,
@@ -168,7 +166,10 @@ section {
 }
 
 .hero-ind {
-  background-color: var(--hero-backgr);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('/images/hero-min.jpg');
+  background-position: center;
+  background-size: 1600px;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
