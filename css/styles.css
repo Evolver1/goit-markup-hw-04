@@ -44,10 +44,15 @@ p {
   margin: 0px 0px 0px 0px;
 }
 
+section {
+  margin: 0px 0px 0px 0px;
+}
+
 .container {
   width: 1200px;
-  padding-left: 15;
-  padding-right: 15;
+  margin: 0 0;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .link {
@@ -159,8 +164,8 @@ p {
 .hero-ind {
   background-color: var(--hero-backgr);
   text-align: center;
-  padding-top: 200;
-  padding-bottom: 200;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-ind__header {
@@ -184,7 +189,6 @@ p {
   color: var(--button-txt-focus-col);
   font-weight: 700;
   line-height: 30px;
-  margin-bottom: 200px;
 }
 
 .hero-ind__button:hover,
@@ -193,6 +197,9 @@ p {
   color: var(--nav-links-color);
 }
 
+.weare {
+  padding-bottom: 94px;
+}
 .weare__main-header {
   font-weight: 700;
   font-size: 36px;
@@ -200,6 +207,7 @@ p {
   letter-spacing: 0.03em;
   color: var(--nav-links-color);
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .weare__list {
@@ -212,15 +220,20 @@ p {
 }
 
 .weare__li:last-child {
-  margin-right: 0px;
+  margin-right: auto;
 }
 
-/* .aboutus {
-} */
+.aboutus {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .aboutus__list {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+.aboutus__list:last-child {
+  margin-right: auto;
 }
 .aboutus__header {
   font-weight: 700;
@@ -230,14 +243,25 @@ p {
   text-transform: uppercase;
   color: var(--nav-links-color);
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .aboutus__txt {
   line-height: 24px;
   letter-spacing: 0.03em;
 }
+.aboutus__li {
+  margin-right: 30px;
+  height: 101px;
+  width: 270px;
+}
+.aboutus__li:last-child {
+  margin-right: auto;
+}
 
 .our-team {
   background-color: var(--our-team-backgr);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .our-team__list {
   display: flex;
@@ -246,7 +270,15 @@ p {
 }
 .our-team__li {
   background-color: var(--button-txt-focus-col);
+  margin-right: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
+.our-team__li:last-child {
+  margin-right: auto;
+}
+
 .our-team__main-header {
   font-weight: 700;
   font-size: 36px;
@@ -254,6 +286,7 @@ p {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--nav-links-color);
+  margin-bottom: 50px;
 }
 
 .our-team__header {
@@ -261,27 +294,43 @@ p {
   font-size: 16px;
   line-height: 19px;
   color: var(--nav-links-color);
+  text-align: center;
+  margin-top: 30px;
 }
 
 .our-team__txt {
   font-size: 16px;
   line-height: 19px;
+  text-align: center;
+  margin-top: 10px;
 }
 /*.our-progects {
 }*/
 
 .our-progects {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .our-progects__Button-list {
   display: flex;
   align-items: center;
+  margin-bottom: 34px;
+}
+.our-progects__Button-li {
+  margin-right: 8px;
 }
 
-.our-progects__img-list {
+.our-progects__Button-li:first-child {
+  margin-left: auto;
+}
+
+.our-progects__Button-li:last-child {
+  margin-right: auto;
+}
+.our-progects__body {
+  display: flex;
+  flex-direction: column;
 }
 
 .our-progects__button {
@@ -296,16 +345,37 @@ p {
   color: var(--button-txt-focus-col);
 }
 
+.our-progects__img-list {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.our-progects__img-list:last-child {
+  margin-bottom: 0px;
+}
+
+.our-progects__img-li {
+  height: 370px;
+  width: 404px;
+  margin-right: 30px;
+}
+.our-progects__img-li:last-child {
+  margin-right: auto;
+}
+
 .our-progects__header {
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
   color: var(--nav-links-color);
+  margin-top: 20px;
 }
 .our-progects__txt {
   font-size: 16px;
   line-height: 30px;
+  margin-top: 4px;
 }
 
 .logo {
@@ -331,11 +401,14 @@ p {
 
 .futer-sec {
   background-color: var(--hero-backgr);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .adr {
   text-decoration: none;
   font-style: normal;
   letter-spacing: 0.03em;
+  padding-top: 27px;
 }
 
 .adress-foot__link {
@@ -358,4 +431,10 @@ p {
 
 .nav-links {
   list-style-type: none;
+}
+.adress-foot__li {
+  margin-bottom: 9px;
+}
+.adress-foot__li:last-child {
+  margin-bottom: auto;
 }
