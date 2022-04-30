@@ -293,7 +293,7 @@ section {
 .our-team {
   background-color: var(--our-team-backgr);
   padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom: 124px;
 }
 .our-team__list {
   display: flex;
@@ -341,13 +341,14 @@ section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .our-clents__main-header {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
+  text-align: center;
   letter-spacing: 0.03em;
   color: var(--nav-links-color);
-  text-align: center;
   margin-bottom: 50px;
 }
 
@@ -366,10 +367,6 @@ section {
 
 .our-clents__Button-li:last-child {
   margin-right: auto;
-}
-.our-clents__body {
-  display: flex;
-  flex-direction: column;
 }
 
 .our-clents__logo {
@@ -391,6 +388,51 @@ section {
 .our-clents__button:hover,
 .our-clents__button:focus {
   border: 2px solid var(--focus-color);
+}
+
+/* Social-links */
+
+.social-links {
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.social-links__Button-list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 34px;
+}
+.social-links__Button-li {
+  margin-right: 10px;
+}
+
+.social-links__Button-li:first-child {
+  margin-left: auto;
+}
+
+.social-links__Button-li:last-child {
+  margin-right: auto;
+}
+
+.social-links__logo {
+  width: 20px;
+  height: 20px;
+  fill: var(--ico-color);
+  transition-duration: 0.4s;
+}
+
+.social-links__logo:hover {
+  fill: var(--button-txt-focus-col);
+}
+.social-links__button {
+  width: 44px;
+  height: 44px;
+  border-radius: 22px;
+}
+
+.social-links__button:hover,
+.social-links__button:focus {
+  background-color: var(--focus-color);
 }
 
 /*.our-progects {
