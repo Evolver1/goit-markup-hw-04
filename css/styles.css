@@ -113,6 +113,10 @@ section {
   font-weight: 500;
   letter-spacing: 0.02em;
 }
+.adress__logo-char {
+  display: flex;
+  align-items: center;
+}
 
 .adress__logo-m {
   width: 16px;
