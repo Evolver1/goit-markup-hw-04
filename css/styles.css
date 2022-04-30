@@ -114,6 +114,12 @@ section {
   letter-spacing: 0.02em;
 }
 
+.adress__logo {
+  width: 16px;
+  height: 12px;
+  fill: carrent-color;
+}
+
 .adress__link:hover,
 .adress__link:focus {
   color: var(--focus-color);
@@ -227,6 +233,11 @@ section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
+.aboutus__logo {
+  fill: #000000;
+}
+
 .aboutus__list {
   display: flex;
   flex-direction: row;
