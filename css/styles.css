@@ -107,6 +107,7 @@ section {
   text-decoration: none;
   font-style: normal;
   margin-left: auto;
+  text-align: center;
 }
 
 .adress__li {
@@ -117,25 +118,21 @@ section {
   color: var(--contact-links-color);
   font-weight: 500;
   letter-spacing: 0.02em;
-  margin-left: 10px;
-}
-.adress__logo-char {
-  display: flex;
   align-items: center;
 }
 
 .adress__logo-m {
   width: 16px;
   height: 12px;
-  fill: var(--contact-links-color);
-  /* margin-left: 10px; */
+  fill: currentcolor;
+  margin-right: 10px;
 }
 
 .adress__logo-tel {
   width: 10px;
   height: 16px;
-  fill: var(--contact-links-color);
-  /* margin-left: 10px; */
+  fill: currentcolor;
+  margin-right: 10px;
 }
 
 .adress__link:hover,
@@ -197,11 +194,13 @@ section {
 .hero-ind {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url('../images/hero-min.jpg');
-  background-position: center;
-  background-size: 1600px;
+  /* background-position: center; */
+  /* width: 1600px; */
+  /* background-size: 1600px; */
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
