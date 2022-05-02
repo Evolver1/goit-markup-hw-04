@@ -11,6 +11,7 @@
   --border-line: #ececec;
   --ico-color: #afb1b8;
   --social-links-foot_color: rgba(255, 255, 255, 0.1);
+  --card-border: #eeeeee;
 }
 html {
   box-sizing: border-box;
@@ -497,7 +498,6 @@ section {
   margin-top: -30px;
   margin-left: -30px;
   flex-basis: calc((100% / 3) - 20px);
-  /* justify-content: space-between; */
 }
 
 .our-progects__img-li {
@@ -505,9 +505,11 @@ section {
   height: 404px;
   margin-top: 30px;
   margin-left: 30px;
+  border: 1px solid var(--card-border);
+  box-sizing: border-box;
 }
 
-/* .our-progects__img {} */
+/* .our-progects__img {} card-img */
 
 .our-progects__Card-cont {
   padding-top: 20px;
