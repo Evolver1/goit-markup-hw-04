@@ -84,8 +84,7 @@ section {
   font-size: 16px;
   text-align: center;
   border-radius: 4px;
-  transition-duration: 0.4s;
-}
+  }
 
 .heder {
   border-bottom: 1px solid var(--border-line);
@@ -389,8 +388,7 @@ section {
   width: 170px;
   height: 92px;
   fill: var(--ico-color);
-  transition-duration: 0.4s;
-}
+
 
 .our-clents__logo:hover {
   fill: var(--focus-color);
@@ -434,8 +432,7 @@ section {
   width: 44px;
   height: 44px;
   fill: var(--ico-color);
-  transition-duration: 0.4s;
-}
+  }
 
 .social-links__logo:hover {
   fill: var(--button-txt-focus-col);
@@ -661,8 +658,7 @@ section {
   width: 44px;
   height: 44px;
   fill: var(--button-txt-focus-col);
-  transition-duration: 0.4s;
-}
+  }
 
 /* .social-links-foot__logo:hover {
   fill: var(--button-txt-focus-col);
