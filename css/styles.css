@@ -110,8 +110,8 @@ section {
   text-align: center;
 }
 
-.adress__li {
-  margin-right: 12px;
+.adress__li:last-child {
+  margin-left: 30px;
 }
 
 .adress__link {
