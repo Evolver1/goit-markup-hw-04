@@ -195,7 +195,7 @@ section {
 
 .hero-ind {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url('/images/hero-min.jpg');
+    url('../images/hero-min.jpg');
   background-position: center;
   background-size: 1600px;
   text-align: center;
