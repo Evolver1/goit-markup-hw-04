@@ -84,7 +84,7 @@ section {
   font-size: 16px;
   text-align: center;
   border-radius: 4px;
-  }
+}
 
 .heder {
   border-bottom: 1px solid var(--border-line);
@@ -388,7 +388,7 @@ section {
   width: 170px;
   height: 92px;
   fill: var(--ico-color);
-
+}
 
 .our-clents__logo:hover {
   fill: var(--focus-color);
@@ -413,6 +413,7 @@ section {
 
 .social-links__Button-list {
   display: flex;
+  flex-direction: row;
   align-items: center;
   /* margin-bottom: 34px; */
 }
@@ -432,11 +433,12 @@ section {
   width: 44px;
   height: 44px;
   fill: var(--ico-color);
-  }
+}
 
 .social-links__logo:hover {
   fill: var(--button-txt-focus-col);
 }
+
 .social-links__button {
   width: 44px;
   height: 44px;
@@ -445,8 +447,8 @@ section {
   background-color: var(--button-txt-focus-col);
 }
 
-.social-links__button:hover,
-.social-links__button:focus {
+.social-links__button:hover {
+  /* .social-links__button:focus { */
   background-color: var(--focus-color);
 }
 
@@ -658,7 +660,7 @@ section {
   width: 44px;
   height: 44px;
   fill: var(--button-txt-focus-col);
-  }
+}
 
 /* .social-links-foot__logo:hover {
   fill: var(--button-txt-focus-col);
